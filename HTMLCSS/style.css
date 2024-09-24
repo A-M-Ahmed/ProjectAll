@@ -1,0 +1,11 @@
+/**
+** common css
+*/
+
+*,*::after,*::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
