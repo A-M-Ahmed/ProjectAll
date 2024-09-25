@@ -1,12 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Learning</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <!-- *Font Awesome -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header_area">
+      <div id="top_header_area">
+        <div class="container">
+          <!-- ? contact and mail -->
+          <div class="contact_info">
+            <p><i class="fa fa-phone"></i> 1234-456-899</p>
+            <p><i class="fa fa-envelope"></i> info@domain.com</p>
+          </div>
+          <!-- * Socail media -->
+          <div class="social_area">
+            <ul>
+              <li>
+                <a href=""><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="main_head">
+        <div class="container">
+          <div class="logo-img">
+            <a href="index.html"
+              ><img src="img/undraw_programmer_re_owql.svg" alt="coding"
+            /></a>
+          </div>
+          <nav id="main_menu">
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">sevice</a></li>
+              <li><a href="#">protfolio</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- ! bannera area -->
+    <section id="banner_area">
+      <div class="container">
+        <div class="banner_text">
+          <h2>Learn code for fun</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            placeat eum perspiciatis, culpa, neque error laborum expl nulla amet facilis 
+          </p>
+          <p><a class="btn">Learn more</a></p>
+        </div>
+        <div class="banner_img">
+            <img src="img/undraw_code_thinking_re_gka2.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- **Service area -->
+    <section id="service_area">
+        <div class="container title">
+            <h2>our services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rerum mollitia at culpa ad offi</p>
+        </div>
+        <div class="container box">
+            <div class="child-service">
+                <p><i class="fas fa-laptop-code"></i></p>
+                <h3>Lear Code</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, pariatur.</p>
+                <p><a href="#" class="btn">Read More</a></p>
+            </div>
+            <div class="child-service">
+                <p><i class="fas fa-laptop-code"></i></p>
+                <h3>Design is Fun</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, pariatur.</p>
+                <p><a href="#" class="btn">Read More</a></p>
+            </div>
+            <div class="child-service">
+                <p><i class="fas fa-laptop-code"></i></p>
+                <h3>Ruler Triangle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, pariatur.</p>
+                <p><a href="#" class="btn">Read More</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ! Contact section -->
+     <section id="contact_area">
+      <div class="container">
+        <div class="contact_form">
+          <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password here" required>
+
+            <label for="number">Phone</label>
+            <input type="number" name="number" id="password" placeholder="123-456-789" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter your message here" required></textarea>
+
+            <input type="submit" value="submit">
+
+          </form>
+
+        </div>
+        <div class="contact_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18838.370272556356!2d-1.4418599111660106!3d53.82869986462659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48794497d273cae7%3A0x9def88480faf6a71!2sScholes%2C%20Leeds%2C%20UK!5e0!3m2!1sen!2sug!4v1727269239486!5m2!1sen!2sug"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+     </section>
+  </body>
 </html>
