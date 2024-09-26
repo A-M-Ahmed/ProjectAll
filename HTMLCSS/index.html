@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="CSS/all.min.css" />
     <link rel="stylesheet" href="CSS/fontawesome.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   </head>
   <body>
     <header id="header_area">
@@ -46,6 +48,10 @@
             <a href="index.html"
               ><img src="img/undraw_programmer_re_owql.svg" alt="coding"
             /></a>
+          </div>
+          <div class="hambuger">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-close"></i>
           </div>
           <nav id="main_menu">
             <ul>
@@ -106,20 +112,26 @@
 
     <!-- ! Contact section -->
      <section id="contact_area">
+      <div class="container titleContact">
+        <h3>contact us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eaque!</p>
+      </div>
       <div class="container">
         <div class="contact_form">
           <form id="contactForm">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+            <label for="username">UserName</label>
+            <input type="text" name="username" id="username" placeholder="Enter your name here" required>
 
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+            <div class="emailError"></div>
 
             <label for="password">Password</label>
             <input type="password" name="password" id="password" placeholder="Enter your password here" required>
+            <p class="passwordError">password is <span id="str"></span></p>
 
             <label for="number">Phone</label>
-            <input type="number" name="number" id="password" placeholder="123-456-789" required>
+            <input type="number" name="number" id="number" placeholder="123-456-789" required>
 
             <label for="message">Message</label>
             <textarea name="message" id="message" placeholder="Enter your message here" required></textarea>
@@ -134,5 +146,12 @@
         </div>
       </div>
      </section>
+
+     <!-- * footer area -->
+      <footer id="footer_area">
+        <p>Copyright &#9426; right, All right reserverd</p>
+      </footer>
+
+      <script src="./js/main.js"></script>
   </body>
 </html>
